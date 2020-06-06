@@ -20,7 +20,28 @@
 
 			.block {
 			display: inline-block; 
+			width: 49%;
 			}
+			
+			.mobile{
+				height: 500px;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.block {
+					width: inherit !important;
+					padding-top: 10px !important;
+				}
+				.video{
+					height: 100% !important;
+				}
+
+				.mobile{
+					width: 50% !important;
+					height: 50% !important;
+				}
+        	}
+
 		</style>
 	</head>
 	<body class="is-preload">
@@ -58,50 +79,82 @@
 
 						<!-- Work -->
 							<article id="projects">
+
 								<div class="row">
-									<div class="block"><h2 class="major">Projects</h2></div>
-									<div class="block" style="float: right;"><p>Check my <a href="https://github.com/kvntzn">GitHub</a> <a href="https://github.com/kvntzn" class="icon brands fa-github"></a></p></div>
+									<h2 class="major">Projects</h2>
+									<p>Check my <a href="https://github.com/kvntzn">GitHub</a> <a href="https://github.com/kvntzn" class="icon brands fa-github"></a></p>
+								</div>
+
+								<hr>
+								<!-- APPS -->
+								<h3 class="major">Apps</h3>
+								<div class="row">
+									<div  class="block" align="center">
+										<h4 class="major">Weather Search - 2020</h4>
+										<span ><img src="images/weather_search.gif" alt="" class="mobile" /></span>
+											<p>Weather search via location
+												<br>Technologies Used:<b> Xamarin Forms, C# </b>
+											</p>
+										<input type="button" class="button primary small" onclick="window.open('https://drive.google.com/file/d/1tZv57O7_0js3WuT6vpz3hTGdwnorohtO/view','_blank');" value="Demo" />
+										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/Weather-Search/','_blank');" value="Code" />		
+									</div>
+									<div  class="block" align="center">
+										<h4 class="major">SolarSystem - 2017</h4>
+										<span ><img src="images/solarsystem.gif" alt="" class="mobile" /></span>
+											<p>Informational solar system app
+												<br>Technologies Used:<b> Java, Android Studio </b>
+											</p>
+										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/raw/master/Solarsystem.apk','_blank');" value="Demo" />
+										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/','_blank');" value="Code" />		
+									</div>
 								</div>
 								
-								<div>
-									<h4 class="major">Ominous - 2017-2018</h4>
-								<span class="image main"><iframe  height="400" src="https://www.youtube.com/embed/KQYRyCCkNtY" style="position: relative; width: 100%;"></iframe></span>
-									<p>First Person perspective horror game
-										<br>Technologies Used:<b> Unity, C# </b>
-									</p>
-								<input type="button" class="button primary small" onclick="location.href='https://play.google.com/store/apps/details?id=com.brotherhood.ominous';" value="Live" />
-								<input type="button" class="button primary small disabled" value="Code" />		
-								</div>
 								<hr>
-								<div>
-									<h4 class="major">Legendoyo - 2018</h4>
-								<span class="image main"><img src="images/legendoyo.png" alt="" height="300" /></span>
-									<p>Action video game developed in Game maker
-										<br>Technologies Used:<b> C++, Game Maker Language, Game Maker Studio 1.4 </b>
-									</p>
-								<input type="button" class="button primary small" onclick="location.href='https://github.com/kvntzn/Legendoyo/raw/master/Legendoyo.exe';" value="Demo" />
-								<input type="button" class="button primary small" onclick="location.href='https://github.com/kvntzn/Legendoyo';" value="Code" />		
-								</div>
-								<hr>
-								<div>
-									<h4 class="major">SolarSystem - 2017</h4>
-								<span ><img src="images/projectpic03.png" alt="" height="300" /></span>
-									<p>Informational solar system app
-										<br>Technologies Used:<b> Java, Android Studio </b>
-									</p>
-								<input type="button" class="button primary small" onclick="location.href='https://github.com//kvntzn/SolarSystem/raw/master/Solarsystem.apk';" value="Demo" />
-								<input type="button" class="button primary small" onclick="location.href='https://github.com/kvntzn/SolarSystem';" value="Code" />		
-								</div>
-									
-							</article>
+								<!-- GAMES -->
+								<h3 class="major">Games</h3>
+								<div class="row">
+									<div class="block" align="center">
+										<h4 class="major">Ominous - 2017-2018</h4>
+									<span class="image main" style="width: 90%;"><iframe class="video"  height="440" src="https://www.youtube.com/embed/KQYRyCCkNtY" style="position: relative; width: 100%;"></iframe></span>
+										<p>First Person perspective horror game
+											<br>Technologies Used:<b> Unity, C# </b>
+										</p>
+									<input type="button" class="button primary small" onclick="window.open('https://play.google.com/store/apps/details?id=com.brotherhood.ominous','_blank');" value="Live" />
+									<input type="button" class="button primary small disabled" value="Code" />		
+									</div>
 
+									<div class="block" align="center">
+										<h4 class="major">Legendoyo - 2018</h4>
+									<span class="image main"><img src="images/legendoyo.gif" alt="legendoyo" style="width: inherit;" /></span>
+										<p>Action video game developed in Game maker
+											<br>Technologies Used:<b> C++, Game Maker Language, Game Maker Studio 1.4 </b>
+										</p>
+									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo/raw/master/Legendoyo.exe','_blank');" value="Demo" />
+									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo','_blank');" value="Code" />		
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="block" align="center">
+										<h4 class="major">Legendoyo - 2018</h4>
+									<span class="image main"><img src="images/dragoncall.gif" alt="dragoncall" style="width: inherit;" /></span>
+										<p>2D Dragon fighter game developed in Game maker
+											<br>Technologies Used:<b>Game Maker Language, Game Maker Studio 1.4 </b>
+										</p>
+									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo/raw/master/Dragoncall.exe','_blank');" value="Demo" />
+									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Dragoncall','_blank');" value="Code" />		
+									</div>
+								</div>
+							</article>
 						<!-- About -->
 							<article id="experience">
 								<div class="row">
 									<div class="block"><h2 class="major">Experiences</h2></div>
-									<div class="block" style="float: right;"><p>Check my <a href="https://www.linkedin.com/in/kevin-tuazon-920839139/">Linkedin</a> <a href="https://www.linkedin.com/in/kevin-tuazon-920839139/" class="icon brands fa-linkedin-in"></a></p></div>
+									<p>Check my <a href="https://www.linkedin.com/in/kevin-tuazon-920839139/">Linkedin</a> <a href="https://www.linkedin.com/in/kevin-tuazon-920839139/" class="icon brands fa-linkedin-in"></a></p>
 								</div>
 								
+								<hr>
+
 								<ul>
 									<li><b>Software Engineer at <a href="https://www.filamsoftware.com/">Filam Software Technology Inc.</a></b> <i>06/2018 – Present </i>
 										<ul>
@@ -115,11 +168,15 @@
 									</li>
 								</ul>
 								
+								<hr>
+
 								<br>
 								<h2 class="major">Certifications</h2>
 								<ul>
 									<li><a href="https://www.youracclaim.com/badges/d50ed3c8-3976-4998-9b08-04eeada53c61/linked_in_profile">MTA: Database Fundamentals - Certified 2018 </a></li>
 								</ul>
+
+								<hr>
 
 								<br>
 								<h2 class="major">Education</h2>
