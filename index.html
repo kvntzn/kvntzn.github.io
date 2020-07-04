@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
+	Strata by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -10,246 +10,483 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			.row {
-			width: 100%;
-			text-align: start; 
-			}
-
-			.block {
-			padding-top: 20px !important;
-			display: inline-block; 
-			width: 49%;
-			}
-			
-			.mobile{
-				height: 500px;
-			}
-
-			@media only screen and (max-width: 600px) {
-				.block {
-					width: inherit !important;
-				}
-				.video{
-					height: 100% !important;
-				}
-
-				.mobile{
-					width: 50% !important;
-					height: 50% !important;
-				}
-        	}
-
-		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/kevimage.jpg" alt="" /></a>
+					<h1><strong>I am Kevin Tuazon</strong>,<br />
+						a Software Engineer who's naturally curious and passionate in software<br />
+					 development. Always has a keen <br/>
+					interest on new trends in technologies</h1>
+				</div>
+			</header>
 
-				<!-- Header -->
-					<header id="header"> 
-						<div class="logo">
-							<span class="fas fa-laptop-code fa-2x"></span>
-						</div>
-						<ul class="icons" style="margin-bottom: 0px; margin-top: 2em;">
-							<li><a href="mailto:kevintuazon45@gmail.com?Subject=Hello%20" class="icon fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="https://github.com/kvntzn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/kevin-tuazon/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						</ul>
-					
-						<div class="content">
-							<div class="inner">
-								<h1>Kevin Tuazon</h1>
-								<h4>Software Engineer / Software Developer</h4>
-
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#projects">Portfolio</a></li>
-								<li><a href="#experience">Experience</a></li>
-								<li><a href="#about">About</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Work -->
-							<article id="projects">
-
-								<div class="row">
-									<h2 class="major">Personal Projects</h2>
+		<!-- Main -->
+			<div id="main">
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/kachinga.png" class="image fit thumb"><img src="images/kachinga.png" alt="" /></a>
+								<div style="padding-bottom: 10px;">
+									<input type="button" class="button  primary small" onclick="window.open('https://apple.co/2OBriwK','_blank');" value="App Store" />
+									<input type="button" class="button  primary small" onclick="window.open('https://bit.ly/2S8ImMI','_blank');" value="Play Store" />
 								</div>
-								<!-- APPS -->
-								<h3 class="major">Apps</h3>
-								<div class="row">
-									<div  class="block" align="center">
-										<h4 class="major">Weather Search - 2020</h4>
-										<span ><img src="images/weather_search.gif" alt="" class="mobile" /></span>
-											<p>Weather search via location
-												<br>Technologies Used:<b> Xamarin Forms, C# </b>
-											</p>
-										<input type="button" class="button primary small" onclick="window.open('https://drive.google.com/file/d/1tZv57O7_0js3WuT6vpz3hTGdwnorohtO/view','_blank');" value="Demo" />
-										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/Weather-Search/','_blank');" value="Code" />		
-									</div>
-									<div  class="block" align="center">
-										<h4 class="major">SolarSystem - 2017</h4>
-										<span ><img src="images/solarsystemv2.gif" alt="" class="mobile" /></span>
-											<p>Informational solar system app
-												<br>Technologies Used:<b> Java, Android Studio </b>
-											</p>
-										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/raw/master/Solarsystem.apk','_blank');" value="Demo" />
-										<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/','_blank');" value="Code" />		
-									</div>
+								<h3>Kachinga</h3>
+								<p class="extra">A mobile application to assist parents with instructing and empowering their children to effectively manage money by setting a chore, goals with a debit spend card for kids so they can go through their own money and increase real-world money experience.</p>
+								<h3>Role</h3>
+								<p class="extra">Create several pages including Save, Give, Allowances, etc. Maintain, investigating, fixing system issues. Worked on the backend and integrated 3rd party API used for debit/credit card transaction. Designed and Implemented email templates.</p>
+								<h3>Technologies Used</h3>
+								<p class="extra">C#, MS SQL, Html/CSS, Xamarin Forms, .Net Core, Plaid, Akimbo/USIO, SendGrid</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/weathersearch.png" class="image fit thumb"><img src="images/weathersearch.png" alt="" /></a>
+								<div style="padding-bottom: 10px;">
+									<input type="button" class="button primary small" onclick="window.open('https://drive.google.com/file/d/1tZv57O7_0js3WuT6vpz3hTGdwnorohtO/view','_blank');" value="Demo" />
+									<input type="button" class="button  primary small" onclick="window.open('https://github.com//kvntzn/Weather-Search/','_blank');" value="Code" />		
 								</div>
-								
-								<hr>
-								<!-- GAMES -->
-								<h3 class="major">Games</h3>
-								<div class="row">
-									<div class="block" align="center">
-										<h4 class="major">Ominous - 2017-2018</h4>
-									<span class="image main" style="width: 90%;"><iframe class="video"  height="440" src="https://www.youtube.com/embed/KQYRyCCkNtY" style="position: relative; width: 100%;"></iframe></span>
-										<p>First Person perspective horror game
-											<br>Technologies Used:<b> Unity, C# </b>
-										</p>
+								<h3>Weather Search</h3>
+								<p class="extra">Mobile application for checking current weather details.</p>
+								<h3>Role</h3>
+								<p class="extra">I am the sole developer of the app. I build an
+									application for checking the current weather 
+									of a certain location via searching 
+									or location service to get the current location.</p>
+								<h3>Technologies Used</h3>
+								<p class="extra">Xamarin Forms, C#</p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/ominous.png" class="image fit thumb"><img src="images/ominous.png" alt="" /></a>
+								<div style="padding-bottom: 10px;">
 									<input type="button" class="button primary small" onclick="window.open('https://play.google.com/store/apps/details?id=com.brotherhood.ominous','_blank');" value="Live" />
 									<input type="button" class="button primary small disabled" value="Code" />		
-									</div>
-
-									<div class="block" align="center">
-										<h4 class="major">Legendoyo - 2018</h4>
-									<span class="image main"><img src="images/legendoyo.gif" alt="legendoyo" style="width: inherit;" /></span>
-										<p>Action video game developed in Game maker
-											<br>Technologies Used:<b> C++, Game Maker Language, Game Maker Studio 1.4 </b>
-										</p>
-									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo/raw/master/Legendoyo.exe','_blank');" value="Demo" />
-									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo','_blank');" value="Code" />		
-									</div>
 								</div>
-
-								<div class="row">
-									<div class="block" align="center">
-										<h4 class="major">Dragon Call - 2017</h4>
-									<span class="image main"><img src="images/dragoncall.jpg" alt="dragoncall" style="width: inherit;" /></span>
-										<p>2D Dragon fighter game developed in Game maker
-											<br>Technologies Used:<b>Game Maker Language, Game Maker Studio 1.4 </b>
-										</p>
-									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Legendoyo/raw/master/Dragoncall.exe','_blank');" value="Demo" />
-									<input type="button" class="button primary small" onclick="window.open('https://github.com/kvntzn/Dragoncall','_blank');" value="Code" />		
-									</div>
-								</div>
+								<h3>Ominous</h3>
+								<p class="extra">First person perspective Mobile Horror game the goal is to solve the mystery within the school.
+									stealth is the only weapon you can use in this game.</p>
+								<h3>Role</h3>
+								<p class="extra">Together with fellow student We were able to develop a game, I am the sole programmer of the game and also worked with the UI designs.</p>
+								<h3>Technologies Used</h3>
+								<p class="extra">Unity, C#</p>
 							</article>
-
-
-						<!-- Experience -->
-							<article id="experience">
-								<div class="row">
-									<div class="block"><h2 class="major">Experiences</h2>
-										<ul>
-											<li><b>Software Engineer at <a href="https://www.filamsoftware.com/" target="_blank">Filam Software Technology Inc.</a></b> <i>06/2018 – Present </i>
-												<ul>
-													<li>
-														Developed mobile financial application to allow parents to teach their children on<br>
-														managing their money by giving them chores or allowance where the children could earn.
-													</li>
-													<li><a href="https://apple.co/2OBriwK" target="_blank"><img src="images/appstore.png"></a> </li>
-													<li> <a href="https://bit.ly/2S8ImMI" target="_blank"><img src="images/playstore.png"></a> </li>
-												</ul>
-											</li>
-											
-											<li><b>Developer Intern at Oversees Hub Inc.,</b> <i>05/2017 - 07/2017 </i>
-												<ul>
-													<li><p> Implemented CRUD of employee information detail for the HRIS system </p></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-									<div class="block" style="vertical-align: top ;">
-										<h2 class="major">Certifications</h2>
-										<ul>
-											<li><a href="https://www.youracclaim.com/badges/d50ed3c8-3976-4998-9b08-04eeada53c61/linked_in_profile" target="_blank">MTA: Database Fundamentals - Certified 2018 </a></li>
-										</ul>
-									</div>
+							<!-- <article class="col-6 col-12-xsmall work-item">
+								<a href="images/solarsystem.png" class="image fit thumb"><img src="images/solarsystem.png" alt="" /></a>
+								<div style="padding-bottom: 10px;">
+									<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/raw/master/Solarsystem.apk','_blank');" value="Demo" />
+									<input type="button" class="button primary small" onclick="window.open('https://github.com//kvntzn/SolarSystem/','_blank');" value="Code" />		
 								</div>
-								<hr>
-								<h2 class="major">Education</h2>
-								<ul>
-									<li><b>Mabalacat City College Bachelor of Science in Information Technology</b><i>2014-2018 </i> </li>
+								<h3>Solar system</h3>
+								<p class="extra">Android app for solar system</p>
+								<h3>Role</h3>
+								<p class="extra">I am the sole developer and built an informative application for solar system and other celestial bodies</p>
+								<h3>Technologies Used</h3>
+								<p class="extra">Android Studio, Java</p>
+							</article> -->
+							<!-- <article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<h3>Quiz App</h3>
+								<p>Quiz application.</p>
+							</article> -->
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/kvntzn" target="_blank" class="button">Other related projects</a></li>
+						</ul>
+					</section>
+
+				<!-- One -->
+				<section id="one">
+						<h2>About Me</h2>
+					<p>Currently a software Engineer. I have 2 years of experience working on Xamarin Development using Xamarin Forms, C#, .Net Core, MS SQL, Html, CSS and other third party API.
+					I am passionate about building interactive UI and efficient mobile applications.</p>
+
+					<h3>Tech Stack</h3>
+					<p>
+						Xamarin
+						| Android Studio
+						| Unity
+						| VS 2019
+						| VS Code
+						| .Net Core
+						| C#
+						| SQL
+						| Kotlin
+						| Java
+						| HTML/CSS
+						| JavaScript
+						| PHP
+						| Git
+						| Azure Devops Server
+					</p>
+
+					<h3>Current personal projects</h3>
+					<p>Working on <a style="color: #FFFFFF" target="_blank" href="https://github.com/kvntzn/QuizApp">Quiz app</a> project</p>
+				</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Contact</h2>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Mabalacat City, Pampanga Philippines
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										+639382738615
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="mailto:kevintuazon45@gmail.com?Subject=Hello%20">kevintuazon45@gmail.com</a>
+									</li>
 								</ul>
-							</article>
+							</div>
+						</div>
+					</section>
 
-							<article id="about">
-								<h2 class="major">About Me</h2>
-								<div class="row">
-									<p>
-										I am a passionate mobile developer with industry experience building mobile applications for both iOS and Android.
-										 I specialize and have working experience with C# for both Xamarin and  .Net Core for mobile and back end development
-										  while SQL Server for the database. Also had some technical skills on Unity, Android Studio, Html/CSS, Javascript
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
 
-									</p>
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
 								</div>
-								<div class="row">
-									<div class="block" align="left" style="vertical-align: top;">
-										<section>
-											<h3 class="major">Contact Me:</h3>
-											<p><b>Email:</b> kevintuazon45( a )gmail.com;</p>
-											<p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/kevin-tuazon/" ><span class="label">kevin-tuazon</span></a></p>
-											
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 
-											<h3>Location:</h3>
-											<p>Mabalacat, Pampanga</p>
-										</section>
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
 									</div>
-									<div class="block" align="left">
-										<section>
-											<h3 class="major">Programming Technologies</h3>
-											<p>
-												  <b>Xamarin</b>
-												| <b>Android Studio</b>
-												| <b>Unity</b>
-												| <b>.Net Core</b>
-												| <b>C#</b>
-												| <b>SQL</b>
-												| <b>Kotlin</b>
-												| <b>Java</b>
-												| <b>HTML/CSS</b>
-												| <b>JavaScript</b>
-												| <b>PHP</b>
-											</p>
-											<!-- <h3 class="major">Online presence</h3>
-											<ul>
-												<li><a href="https://www.udemy.com/certificate/UC-4835e217-2a6e-4b3f-9a44-5801e5e1fd98/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank">Udemy</a></li>
-												<li><a href="https://app.pluralsight.com/profile/kevin-tuazon-48" target="_blank">Pluralsight</a></li>
-												<li><a href="https://www.sololearn.com/Profile/983781" target="_blank">SoloLearn</a></li>
-												<li><a href="https://stackoverflow.com/users/7136116/heathkevinnove" target="_blank">Stack Overflow</a></li>
-												<li><a href="https://www.codewars.com/users/kvntzn" target="_blank">Code wars</a></li>
-											</ul> -->
-										</section>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
 									</div>
 								</div>
+							</form>
+						</section>
 
-							</article>
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
 
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; 2020. Kevin Tuazon.</p>
-					</footer>
+					</section>
+				-->
 
 			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/kvntzn" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kevin-tuazon/" class="icon brands fa-linkedin-in"><span class="label">Dribbble</span></a></li>
+						<li><a href="mailto:kevintuazon45@gmail.com?Subject=Hello%20" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Tuazon Kevin</li>
+					</ul>
+				</div>
+			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
