@@ -3226,3 +3226,7 @@ input, select, textarea {
 .extra{
 	margin-bottom: 10px !important;
 }
+
+.tech{
+	min-width: 2em !important;
+}
